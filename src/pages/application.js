@@ -7,10 +7,16 @@ function Application() {
         <h2>Visa and Migration</h2>
         <p>Information about visa and migration services</p>
 
-         <Form>
+    <Form>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
         <Form.Label>Type of Visa</Form.Label>
         <Form.Control type="text" placeholder="choose of your type" />
+      </Form.Group>
+
+
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>First Name</Form.Label>
+        <Form.Control type="text" placeholder="First name" />
       </Form.Group>
     </Form>
 
